@@ -11,27 +11,46 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-around;
+    margin: 0 200px;
 }
 .nav-title {
     color: var(--Dark-01, #181818);
     font-size: 45px;
     font-weight: 800;  
-}
+    }
 nav > ul{
     display: flex;
     align-items: center;
-}
+    
+    }
 nav li{
     list-style: none;
     margin-right: 50px;
-}
+    }
 nav a{
    text-decoration: none;
    color: #474747;
-}
+    }
+
+/*header releted style */
+.header {
+    background-color: #FFF8F3;;
+  
+   }
+
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+    
+    }
+.banner .profile-picture{
+        width: 500px;
+    }
+
 .text-primary {
     color:#FD6E0A ;
-}
+    }
 .btn-primary {
     border-radius: 5px;
     background: #FD6E0A;
@@ -40,4 +59,4 @@ nav a{
     font-weight: 700;
     border: 0;
     padding: 15px 35px;
-}
+    }
