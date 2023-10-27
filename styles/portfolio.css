@@ -54,7 +54,7 @@ nav a{
     text-align: center;
     font-size: 18px;
 
-}
+    }
 
 /*header releted style */
 .header {
@@ -74,7 +74,7 @@ nav a{
 
 .banner-content{
     max-width: 500px;
-}
+    }
 .banner .profile-picture{
         width: 600px;
     }
@@ -84,18 +84,18 @@ nav a{
     color: #474747;
     margin-bottom: 0;
 
-}
+    }
 .banner-title{
     font-size: 50px;
     font-weight:700px ;
     margin-top: 5px;
     margin-bottom: 20px;
-}
+    }
 /* main section styles */
 main{
     max-width: 1140px;
     margin: 0 auto;
-}
+    }
 
 /* about section style */
 .about{
@@ -103,14 +103,93 @@ main{
     border-radius: 10px;
     background: #FFF8F3;
     margin: 130px 0 ;
-}
+    }
 .about-info-container{
     display: flex;
     justify-content: space-around;
-}
+    }
 .about-info{
     text-align: center;
-}
+    }
+/* skill releted style  */
 #what-i-do-description{
     padding: 30px 150px;
-}
+    }
+.skills-container{
+    display: flex;
+    gap: 24px;
+    }
+.skill{
+    padding: 30px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    }
+.skill-description{
+    color: #474747;
+
+    }
+/* resume style section  */
+.resume-column-title{
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+
+    }
+.resume-container{
+    display: flex;
+    gap: 50px;
+    }
+.resume-item-institute{
+    margin-bottom: 20px;
+    margin-top: 0px;
+
+    }
+.resume-item-institute, .resume-item-description{
+    color: #757575;
+    }
+.resume-item-title{
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    }
+
+.resume-container hr{
+    margin: 30px;
+    }
+
+.download-cv{
+        text-align: center;
+        margin-top: 50px;
+        }
+/* footer style  */
+footer{
+    display: flex;
+    background: #FFF8F3;
+    padding: 130px 200px;
+    margin-top: 100px;
+    gap: 100px;
+    }
+.social-links a{
+    margin-right: 25px ;
+    }
+
+.footer-column{
+    width: 50%;
+
+    }
+.contact input[type="text"], .contact input[type="email"], textarea{
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color: #757575;
+    border-radius: 5px;
+    background: #FFF;
+    border: 0;
+    width: 100%;
+    }
+
+       
+
+
